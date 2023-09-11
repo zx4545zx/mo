@@ -9,6 +9,8 @@ import NewFood from "./component/content/homepage/NewFood";
 // import TestTable from "./component/content/homepage/TestTable";
 import TEST2 from "./component/content/homepage/TEST2";
 import TEST3 from "./component/content/homepage/TEST3";
+import TestNewFood from "./component/content/homepage/TestNewFood";
+import TNewFood from "./component/content/homepage/TNewFood";
 
 // import Dropdown from "./component/content/homepage/Dropdown";
 function App() {
@@ -19,7 +21,10 @@ function App() {
         <Sidebar />
         <div className="grid w-screen grid-cols-1 gap-6 lg:grid-cols-2">
           <div className="rounded-xl">
-            <NewFood />
+            {/* <NewFood /> */}
+            {/* <TestNewFood /> */}
+            <TNewFood />
+
             {/* <Dropdown /> */}
           </div>
 

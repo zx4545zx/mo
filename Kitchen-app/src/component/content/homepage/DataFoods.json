@@ -1,0 +1,4718 @@
+{
+  "message": "สำเร็จ",
+  "messageEn": "Successful",
+  "data": [
+    {
+      "id": 375,
+      "name": "กระเพราทดสอบ",
+      "nameEn": "test",
+      "image": "",
+      "isShow": "1",
+      "categoryId": {
+        "id": 6,
+        "name": "อาหารจานด่วน",
+        "nameEn": "Quick dish in the forest",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [
+        {
+          "id": 17,
+          "name": "พิเศษมาก",
+          "nameEn": "extraMak",
+          "price": 199,
+          "isBaht": "1"
+        },
+        {
+          "id": 16,
+          "name": "พิเศษ",
+          "nameEn": "extra",
+          "price": 99,
+          "isBaht": "1"
+        }
+      ],
+      "options": [
+        {
+          "id": 1,
+          "name": "ไข่",
+          "nameEn": "egg",
+          "min": 0,
+          "max": 0,
+          "optionDetail": [
+            {
+              "id": 2,
+              "name": "ไข่เจียว",
+              "nameEn": "",
+              "price": 1,
+              "isActive": "1"
+            },
+            {
+              "id": 1,
+              "name": "ไข่ดาว",
+              "nameEn": "",
+              "price": 1,
+              "isActive": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 376,
+      "name": "ทดสอบ2",
+      "nameEn": "test",
+      "image": "",
+      "isShow": "1",
+      "categoryId": {
+        "id": 6,
+        "name": "อาหารจานด่วน",
+        "nameEn": "Quick dish in the forest",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": [
+        {
+          "id": 1,
+          "name": "ไข่",
+          "nameEn": "egg",
+          "min": 0,
+          "max": 0,
+          "optionDetail": [
+            {
+              "id": 2,
+              "name": "ไข่เจียว",
+              "nameEn": "",
+              "price": 1,
+              "isActive": "1"
+            },
+            {
+              "id": 1,
+              "name": "ไข่ดาว",
+              "nameEn": "",
+              "price": 1,
+              "isActive": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "name": "คอหมูย่าง",
+      "nameEn": "Grilled pork neck",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 285,
+      "name": "ลาเต้",
+      "nameEn": "Latte",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 264,
+      "name": "ชีสซอส ",
+      "nameEn": "Cheese sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 209,
+      "name": "ผัดฉ่าปลาหมึก",
+      "nameEn": "Stir Fried spic Pad Cha with Squids (Spicy & Hot with Thai Herbals)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 276,
+      "name": "สปาเก็ตตี้โบโลเนส",
+      "nameEn": "Spaghetti Bolognese",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 253,
+      "name": "ต้มแซ่บทะเล",
+      "nameEn": "Hot & Sour Seafood soup",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 270,
+      "name": "ข้าวผัดเจ",
+      "nameEn": "Fried rice (vegan)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 268,
+      "name": "ตำไทยทอดเจ",
+      "nameEn": "Crispy Thai Papaya Salad ",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 214,
+      "name": "ไข่เจียวปูก้อน",
+      "nameEn": "Crabs Meat Omelette",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 310,
+      "name": "อเมริกาโน่",
+      "nameEn": "Americano",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 339,
+      "name": "โกโก้ปั่น",
+      "nameEn": "Cocoa smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 330,
+      "name": "ชาไทยมะพร้าวอ่อน",
+      "nameEn": "Thai tea with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 359,
+      "name": "Black label 1 Lt",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 213,
+      "name": "ไข่เจียวหมูสับ",
+      "nameEn": "Minced Pork Omelette",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 265,
+      "name": "มาซาร่า + โรตี (กรอบ/ นุ่ม)",
+      "nameEn": "Masala curry with Roti (soft crispy)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 292,
+      "name": "สตรอว์เบอร์รี่โซดา",
+      "nameEn": "Strawberry soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 168,
+      "name": "ซี่โครงหมูซอส BBQ",
+      "nameEn": "BBQ Pork Rib",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 196,
+      "name": "ต้มยำกุ้ง น้ำใส/ น้ำข้น",
+      "nameEn": "Thai Herbals Soup with Shrimp in Hot & Sour (Tom yum Koong)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 218,
+      "name": "กรรเชียงปูผัดผงกระหรี่",
+      "nameEn": "Stir-Fried Curry powder with Crab meat",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 373,
+      "name": "ขนมไทย",
+      "nameEn": "Thai dessert set in the forest",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 238,
+      "name": "ตำไทยไข่เค็ม",
+      "nameEn": "Thai Papaya Salad with Salted egg",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 230,
+      "name": "ข้าวผัดสัปปะรด",
+      "nameEn": "Pineapple fried rice",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 307,
+      "name": "ซี่โครงหมูซอสหม่าล่า",
+      "nameEn": "Pork ribs with Chinese style spicy sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 335,
+      "name": "มะม่วงชีสเค้กสมูทตี้",
+      "nameEn": "Mango cheesecake smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 191,
+      "name": "หมูกรอบคั่วพริกเกลือ",
+      "nameEn": "Dry-Fried crispy Pork in Chili salt and garlic",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 295,
+      "name": "พีชโซดา",
+      "nameEn": "Peach soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 228,
+      "name": "ราคาเป็นกับข้าว + 100 บาท",
+      "nameEn": "The price is an additional side dish 100",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 252,
+      "name": "ต้มแซ่บปลาแซลมอน",
+      "nameEn": "Hot & Sour Salmon soup",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 178,
+      "name": "นักเก็ตไก่",
+      "nameEn": "Chicken nuggets",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 255,
+      "name": "ข้าวจาน",
+      "nameEn": "Rice",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 241,
+      "name": "ตำข้าวโพดไข่เค็ม",
+      "nameEn": "Thai Papaya Salad with Corn and Salted egg",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 357,
+      "name": "หงส์ทอง 070  Lt",
+      "nameEn": "Hongthong 070 Lt",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 325,
+      "name": "มัทฉะลาเต้",
+      "nameEn": "Matcha latte",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 160,
+      "name": "ตำไทยถาดทอด",
+      "nameEn": "Crispy Thai Papaya Salad with crispy ingredients",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 284,
+      "name": "มอคค่า",
+      "nameEn": "Mocha",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 239,
+      "name": "ตำไทยผลไม้รวม",
+      "nameEn": "Spicy Mixed Fruits Salad",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 288,
+      "name": "กาแฟมะพร้าวอ่อน",
+      "nameEn": "Coffee with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 296,
+      "name": "โกโก้มะพร้าวอ่อน",
+      "nameEn": "Cocoa with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 282,
+      "name": "เอสเพรสโซ่",
+      "nameEn": "Espresso",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 321,
+      "name": "มะนาวโซดา",
+      "nameEn": "Lemon soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 324,
+      "name": "โกโก้",
+      "nameEn": "Cocoa",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 193,
+      "name": "หมูกรอบทอดกระเทียม",
+      "nameEn": "Fried crispy Pork with crispy garlic aroma",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 243,
+      "name": "น้ำตกไก่ย่าง",
+      "nameEn": "Spicy grilled chicken with herb",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 167,
+      "name": "ข้าวผัดเนื้อเค็มเห็ดทรัฟเฟิล",
+      "nameEn": "Fried rice with salted beef and truffles",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 250,
+      "name": "ไก่ย่าง",
+      "nameEn": "Grilled chicken",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 198,
+      "name": "ต้มยำทะเล น้ำใส/ น้ำข้น",
+      "nameEn": "Thai Herbals Soup with Seafood in Hot & Sour (Tom yum Talay)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 163,
+      "name": "กุ้งแม่น้ำเผาไซส์จัมโบ้",
+      "nameEn": "Grilled Giant River Prawn (jumbo)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 315,
+      "name": "กาแฟมะพร้าวอ่อน",
+      "nameEn": "Coffee with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 343,
+      "name": "นมหมีสมูทตี้",
+      "nameEn": "Fresh milk smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 186,
+      "name": "หมูสามชั้นคั่วพริกเกลือ",
+      "nameEn": "Dry-Fried Pork belly in Chili salt and garlic",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 234,
+      "name": "ตำปูปลาร้า",
+      "nameEn": "Papaya spicy Salad with Pickled Fish",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 177,
+      "name": "ชีสสติก",
+      "nameEn": "Cheese stick",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 346,
+      "name": "บัวลอยไข่เค็มสมูทตี้",
+      "nameEn": "Bualoy with Salted Egg smoothie (Boiled flour) (salty sweet fragrant taste)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 337,
+      "name": "ลิ้นจี่เรนโบสมูทตี้",
+      "nameEn": "Lychee Rainbow smoothie (youghurt & lychee)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 280,
+      "name": "ซี่โครงหมูซอสหม่าล่า",
+      "nameEn": "Pork ribs with Chinese style spicy sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 297,
+      "name": "โกโก้",
+      "nameEn": "Cocoa",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 314,
+      "name": "คาราเมลมัคคิอาโต้",
+      "nameEn": "Caramel macchiato",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 274,
+      "name": "สปาเก็ตตี้คาโบนาร่า",
+      "nameEn": "Spaghetti Cabonara",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 320,
+      "name": "ลิ้นจี่โซดา",
+      "nameEn": "Lychee soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 211,
+      "name": "ไก่ผัดเม็ดมะม่วง",
+      "nameEn": "Stir fried chicken with cashew nuts",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 304,
+      "name": "เพิ่มวิปครีม",
+      "nameEn": "Add whipped cream",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 361,
+      "name": "โค้ก/ น้ำส้มแฟนต้า/ สไปรท์",
+      "nameEn": "Coke/ Fanta/ Sprite",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 182,
+      "name": "อิบิโรล",
+      "nameEn": "Ebi roll",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 355,
+      "name": "Hoegaarden Rosee",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 277,
+      "name": "ทีโบน สเต็ก",
+      "nameEn": "T-bone steak",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 261,
+      "name": "ไข่เจียว",
+      "nameEn": "Omelette",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 348,
+      "name": "ป๊อบคอร์นคาราเมลสมูทตี้",
+      "nameEn": "Popcorn caramel smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 332,
+      "name": "เพิ่มช๊อตกาแฟ",
+      "nameEn": "Add a coffee shot",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 333,
+      "name": "บานอฟฟี่สมูทตี้",
+      "nameEn": "Banoffee smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 189,
+      "name": "ทะเลผัดไข่เค็ม",
+      "nameEn": "Stir-Fried Seafood with slted Egg yolk Sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 233,
+      "name": "ยำยอดมะพร้าวกุ้ง",
+      "nameEn": "Young Coconut shoot Salad with Shrimp",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 226,
+      "name": "กะเพรากุ้ง",
+      "nameEn": "Rice Topped with stir-fried Shrimp chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 303,
+      "name": "ชาไทยมะพร้าวอ่อน",
+      "nameEn": "Thai tea with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 293,
+      "name": "ลิ้นจี่โซดา",
+      "nameEn": "Lychee soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 365,
+      "name": "Brownie Macadamia",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 165,
+      "name": "สลัดกุ้งตะกร้าเผือก",
+      "nameEn": "Shrimps salad in taro basket",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 287,
+      "name": "คาราเมลมัคคิอาโต้",
+      "nameEn": "Caramel macchiato",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 281,
+      "name": "ซี่โครงหมูซอส BBQ",
+      "nameEn": "BBQ Pork Rib",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 301,
+      "name": "น้ำมะพร้าว",
+      "nameEn": "Coconut Fresh Juice",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 181,
+      "name": "แซลมอนซาซิมิ",
+      "nameEn": "Salmon sashimi",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 340,
+      "name": "สตรอว์เบอร์รี่สมูทตี้",
+      "nameEn": "Strawberry smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 367,
+      "name": "Orange Soft Cake",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 298,
+      "name": "มัทฉะลาเต้",
+      "nameEn": "Matcha latte",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 254,
+      "name": "ลาบหมู",
+      "nameEn": "Spicy minced pork with herb",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 319,
+      "name": "สตรอว์เบอร์รี่โซดา",
+      "nameEn": "Strawberry soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 221,
+      "name": "กะเพราเนื้อสับ",
+      "nameEn": "Rice Topped with stir-fried Minced Beef chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 258,
+      "name": "ขนมจีน",
+      "nameEn": "Rice noddles",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 215,
+      "name": "กุ้งผัดผงกระหรี่",
+      "nameEn": "Stir-Fried Shrimp in yellow curry powder",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 317,
+      "name": "อัญชันลิ้นจี่โซดา",
+      "nameEn": "Tricia lychee soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 366,
+      "name": "Fudgy Chocolate Cake",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 358,
+      "name": "รีเจนซี่ 350 Ml",
+      "nameEn": "Regency 350 Ml ",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 164,
+      "name": "กุ้งมังกร in the forest (ผลไม้ตามฤดูกาล)",
+      "nameEn": "Lobster spicy salad in the forest (seasonal fruit)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 326,
+      "name": "ชาไทย",
+      "nameEn": "Thai tea",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 278,
+      "name": "ซีซ่าสลัด",
+      "nameEn": "Caesar Salad",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 289,
+      "name": "น้ำแข็งดอกไม้",
+      "nameEn": "Iced flower",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 279,
+      "name": "คลับแซนวิช",
+      "nameEn": "Club Sandwich",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 232,
+      "name": "ยำสามกรอบ",
+      "nameEn": "Three Frames of spicy Salad",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 158,
+      "name": "เมี่ยงทะเล",
+      "nameEn": "Spicy Seafood Salad (by Wrapping them in vegetables and side dishes by your self)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 172,
+      "name": "เฟรนซ์ฟรายส์ ทรัฟเฟิล",
+      "nameEn": "Truffle fries",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 184,
+      "name": "ปูนิ่มคั่วพริกเกลือ",
+      "nameEn": "Dry-Fried Soft-Shell Crabs in Chili salt and garlic",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 170,
+      "name": "ผัดฉ่าทะเล",
+      "nameEn": "Stir Fried spic Pad Cha with Seafood (Spicy & Hot with Thai Herbals)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 244,
+      "name": "หมูมะนาว",
+      "nameEn": "Boiled pork topped with spicy lemon-Scented Sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 300,
+      "name": "นูเทลล่ามะพร้าวอ่อน",
+      "nameEn": "Nutella young coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 353,
+      "name": "Heineken",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 256,
+      "name": "ข้าวโถ",
+      "nameEn": "Rice bowl",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 216,
+      "name": "ปลาหมึกผัดผงกระหรี่",
+      "nameEn": "Stir-Fried Squids in yellow curry powder",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 202,
+      "name": "ปลากระพงทอดลุยสวน",
+      "nameEn": "Deep-fried Sea Bass in spicy Herbs Salad",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 266,
+      "name": "สปาเก็ตตี้ขี้เมาเจ",
+      "nameEn": "Stir-Fried Spaghetti with basil & herbs",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 195,
+      "name": "หมูสามชั้นทอดกระเทียม",
+      "nameEn": "Fried Pork belly with crispy garlic aroma",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 305,
+      "name": "เพิ่มช๊อตกาแฟ",
+      "nameEn": "Add a coffee shot",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 318,
+      "name": "บลูฮาวายแอปเปิ้ลโซดา",
+      "nameEn": "Blue Hawaii apple soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 312,
+      "name": "ลาเต้",
+      "nameEn": "Latte",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 179,
+      "name": "กุ้งชุบแป้งทอด",
+      "nameEn": "Breaded shrimps",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 175,
+      "name": "ยำเม็ดมะม่วงหิมพานต์",
+      "nameEn": "Spicy cashew nuts salad",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 370,
+      "name": "Mango Sticky Rice Cake",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 262,
+      "name": "น้ำจิ้มแจ่วปลาร้า",
+      "nameEn": "Spicy fermented fish sauce dip",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 313,
+      "name": "คาปูชีโน่",
+      "nameEn": "Cappuccino",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 204,
+      "name": "ปีกไก่ทอดน้ำปลา",
+      "nameEn": "Fried chicken wings marinade in fish sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 362,
+      "name": "โซดา",
+      "nameEn": "Soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 162,
+      "name": "ปลากระพงทอดลุยสวน",
+      "nameEn": "Deep-fried Sea Bass in spicy Herbs Salad",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 356,
+      "name": "Budweiser ",
+      "nameEn": "Glass 130-",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 299,
+      "name": "ชาไทย",
+      "nameEn": "Thai tea",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 329,
+      "name": "มัทฉะมะพร้าวอ่อน",
+      "nameEn": "Matcha with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 180,
+      "name": "สลัดกุ้งทอด",
+      "nameEn": "Fried shrimp salad",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 185,
+      "name": "กุ้งคั่วพริกเกลือ",
+      "nameEn": "Dry-Fried Shrimps in Chili salt and garlic",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 309,
+      "name": "เอสเพรสโซ่",
+      "nameEn": "Espresso",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 349,
+      "name": "Bubble galaxy cocktail",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 363,
+      "name": "น้ำแข็งถัง ",
+      "nameEn": "Iced (bucket)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 341,
+      "name": "แตงโมปั่น",
+      "nameEn": "Watermelon smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 286,
+      "name": "คาปูชีโน่",
+      "nameEn": "Cappuccino",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 155,
+      "name": "ไข่นกกระทา",
+      "nameEn": "Fried quail egg",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [
+        {
+          "id": 15,
+          "name": "ราคาปกติ",
+          "nameEn": "",
+          "price": 100,
+          "isBaht": "1"
+        }
+      ],
+      "options": []
+    },
+    {
+      "id": 205,
+      "name": "หมูสามชั้นทอดน้ำปลา",
+      "nameEn": "Fried pork belly marinade in fish sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 197,
+      "name": "ต้มยำทะเลแห้ง",
+      "nameEn": "Thai Herbals dried Soup with Seafood in Hot & Sour",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 187,
+      "name": "ปลาหมึกคั่วพริกเกลือ",
+      "nameEn": "Dry-Fried Squids in Chili salt and garlic",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 351,
+      "name": "Singha",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 156,
+      "name": "ทะเลตกครก",
+      "nameEn": "Crispy fried Seafood fall in mortar (have to do it by yourself)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 302,
+      "name": "มัทฉะมะพร้าวอ่อน",
+      "nameEn": "Matcha with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 249,
+      "name": "ต้มแซ่บกระดูกหมู",
+      "nameEn": "Hot & Sour Pork Ribs soup",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 269,
+      "name": "ผัดผักรวมเจ",
+      "nameEn": "Stir-Fried Mixed Vegetable",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 194,
+      "name": "ปูนิ่มทอดกระเทียม",
+      "nameEn": "Fried Soft Shell Crab with crispy garlic aroma",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 316,
+      "name": "น้ำแข็งดอกไม้",
+      "nameEn": "Iced flower",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 336,
+      "name": "ลอดช่องสมูทตี้",
+      "nameEn": "Lod Chong smoothie (boiled flour) (sweet fragrant from pandan leaf)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 369,
+      "name": "Coconut Cream Pie",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 352,
+      "name": "Leo",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 224,
+      "name": "กะเพราไก่ย่าง",
+      "nameEn": "Rice Topped with stir-fried Grilled Chicken chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 334,
+      "name": "สตรอว์เบอร์รี่ชีสเค้กสมูทตี้",
+      "nameEn": "Strawberry cheesecake smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 203,
+      "name": "ปลากระพงทอดน้ำปลา",
+      "nameEn": "Deep-fried Sea Bass in Fish sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 219,
+      "name": "กะเพราหมูสับ",
+      "nameEn": "Rice Topped with stir-fried Minced Pork chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 273,
+      "name": "สปาเก็ตตี้เพสโต้หอยเชลล์",
+      "nameEn": "Spaghetti Pesto (with Scallops)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 192,
+      "name": "ปลาหมึกทอดกระเทียม",
+      "nameEn": "Fried Squid with crispy garlic aroma",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 338,
+      "name": "ชาไทยลอดช่องสมูทตี้",
+      "nameEn": "Thai Tea Lod Chong smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 271,
+      "name": "ข้าวผัดสัปปะรดเจ",
+      "nameEn": "Pineapple fried rice",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 350,
+      "name": "Chang",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 235,
+      "name": "ตำปลาร้าแซลมอน",
+      "nameEn": "Papaya spicy Salad with Pickled Fish & Salmon",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 248,
+      "name": "เมี่ยงทะเล",
+      "nameEn": "Spicy Seafood Salad (by Wrapping them in vegetables and side dishes by yourself)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 207,
+      "name": "ปีกไก่ทอดซอสหม่าล่า",
+      "nameEn": "Fried chicken wings glazed in Chinese style spicy sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 246,
+      "name": "แซลมอนแช่น้ำปลา",
+      "nameEn": "Salmon Soaked in fish sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 159,
+      "name": "คอหมูย่าง",
+      "nameEn": "Grilled pork neck",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 267,
+      "name": "สปาเก็ตตี้เพสโต้เจ",
+      "nameEn": "Stir-Fried Spaghetti with Pesto",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 354,
+      "name": "Hoegaarden White",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 171,
+      "name": "เฟรนซ์ฟรายส์ ดับเบิ้ลชีส",
+      "nameEn": "French Fries with double cheese on top",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 227,
+      "name": "กะเพราทะเล",
+      "nameEn": "Rice Topped with stir-fried Seafood chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 247,
+      "name": "เมี่ยงหอยแครง",
+      "nameEn": "Spicy Cockles Salad (by Wrapping them in vegetables and side dishes by yourself)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 311,
+      "name": "มอคค่า",
+      "nameEn": "Mocha",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 347,
+      "name": "ชาไทยฝอยทองสมูทตี้",
+      "nameEn": "Thai Tea Foi Thong smoothie (Sweet egg yolk noodle)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 242,
+      "name": "น้ำตกคอหมูย่าง",
+      "nameEn": "Spicy grilled pork neck with herb",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 190,
+      "name": "ปลาหมึกผัดไข่เค็ม",
+      "nameEn": "Stir-Fried Squids with slted Egg yolk Sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 342,
+      "name": "มันม่วงสมูทตี้",
+      "nameEn": "Purple potato smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 236,
+      "name": "ตำปลาร้ากุ้งสด",
+      "nameEn": "Papaya spicy Salad with Pickled Fish & fresh Shrimps",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 208,
+      "name": "ผัดฉ่ากุ้ง",
+      "nameEn": "Stir Fried spic Pad Cha with Shrimp (Spicy & Hot with Thai Herbals)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 323,
+      "name": "โกโก้มะพร้าวอ่อน",
+      "nameEn": "Cocoa with on top Coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 322,
+      "name": "พีชโซดา",
+      "nameEn": "Peach soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 294,
+      "name": "มะนาวโซดา",
+      "nameEn": "Lemon soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 368,
+      "name": "Chai-Ya Cheese Cake",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 174,
+      "name": "เอ็นข้อไก่ทอด",
+      "nameEn": "Deep fried chickens tendon",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 200,
+      "name": "แกงส้มไข่ชะอมกุ้ง",
+      "nameEn": "Thai sour curry soup with Shrimp and Acacia Omelette",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 257,
+      "name": "ข้าวเหนียวขาว",
+      "nameEn": "Sticky rice",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 222,
+      "name": "กะเพราปลาหมึก",
+      "nameEn": "Rice Topped with stir-fried Squids chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 275,
+      "name": "สปาเก็ตตี้ขี้เมาทะเล",
+      "nameEn": "Spicy Seafood Spaghetti with basil & herbs",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 371,
+      "name": "Caramel Macadamia Cheese Pie",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 290,
+      "name": "อัญชันลิ้นจี่โซดา",
+      "nameEn": "Tricia lychee soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 206,
+      "name": "ปีกไก่ทอดซอส BBQ",
+      "nameEn": "Fried chicken wings glazed in BBQ sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 237,
+      "name": "ตำไทย",
+      "nameEn": "Thai Papaya Salad (it has Peanuts and mellows with a sweet & sour taste)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 364,
+      "name": "Mango Cheese Cake",
+      "nameEn": "a",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 372,
+      "name": "Cake set in the forest ",
+      "nameEn": "เค้ก 2 ชิ้น coconut cream pie chai-ya cheese cake + บัวลอยไข่เค็มสมูทตี้ 1 แก้ว",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 360,
+      "name": "น้ำเปล่า",
+      "nameEn": "Water",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 225,
+      "name": "กะเพราคอหมูย่าง",
+      "nameEn": "Rice Topped with stir-fried Grilled Pork chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 199,
+      "name": "กุ้งทอดกระเทียม",
+      "nameEn": "Fried Shrimp with crispy garlic aroma",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 327,
+      "name": "นูเทลล่ามะพร้าวอ่อน",
+      "nameEn": "Nutella young coconut",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 229,
+      "name": "ผัดไทกุ้ง",
+      "nameEn": "Pad Thai Stir-fried Rice Noodles with Shrimp (Thai Style)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 245,
+      "name": "กุ้งแช่น้ำปลา",
+      "nameEn": "Shrimps Soaked in fish sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 220,
+      "name": "กะเพราไก่สับ",
+      "nameEn": "Rice Topped with stir-fried Minced Chicken chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 259,
+      "name": "เส้นหมี่ขาว",
+      "nameEn": "Rice vermicelli",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 166,
+      "name": "ปูนิ่มผัดผงกระหรี่",
+      "nameEn": "Stir-Fried Soft Shell Crab in yellow curry powder",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 291,
+      "name": "บลูฮาวายแอปเปิ้ลโซดา",
+      "nameEn": "Blue Hawaii apple soda",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 201,
+      "name": "แกงส้มกุ้งผักรวม",
+      "nameEn": "Thai sour curry soup with Mixed Vegetables",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 176,
+      "name": "ทอดมันกุ้ง",
+      "nameEn": "Crispy thai shrimp cake",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 169,
+      "name": "ขาหมูเยอรมัน",
+      "nameEn": "German Pork Knucki (Schweinshaxe)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 344,
+      "name": "มัทฉะสมูทตี้",
+      "nameEn": "Matcha smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 210,
+      "name": "ไข่เจียวกุ้ง",
+      "nameEn": "Minced Shrimp Omelette",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 161,
+      "name": "กุ้งทอดหมี่กรอบซอสมะขาม",
+      "nameEn": "Fried Shrimp and crispy noodles with tamarind sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 157,
+      "name": "ยกครกจิ๋ว",
+      "nameEn": "Thai Spicy Papaya Salas Seafood with all mortar set (have to do it by yourself)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 173,
+      "name": "เฟรนซ์ฟรายส์ ",
+      "nameEn": "French Fries ",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 188,
+      "name": "กุ้งผัดไข่เค็ม",
+      "nameEn": "Salt-Fried Shrimps with salted Egg yolk Sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 306,
+      "name": "คลับแซนวิช",
+      "nameEn": "Club Sandwich",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 345,
+      "name": "โกโก้สตอรว์เบอร์รี่สมูทตี้",
+      "nameEn": "Cocoa strawberry smoothie",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 308,
+      "name": "ซี่โครงหมูซอส BBQ",
+      "nameEn": "BBQ Pork Rib",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 331,
+      "name": "เพิ่มวิปครีม",
+      "nameEn": "Add whipped cream",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 183,
+      "name": "เฟรนซ์ฟรายส์ ไส้กรอกแดงในตำนาน",
+      "nameEn": "Thai Legend Sausages (Red Sausage in French fries form)",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 260,
+      "name": "ไข่ดาว",
+      "nameEn": "Fried egg",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 272,
+      "name": "คารามารี",
+      "nameEn": "Calamari",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 223,
+      "name": "กะเพราหมูกรอบ",
+      "nameEn": "Rice Topped with stir-fried Crispy Pork chili & basil",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 240,
+      "name": "ตำไทยถาดทอด",
+      "nameEn": "Crispy Thai Papaya Salad with crispy ingredients",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 283,
+      "name": "อเมริกาโน่",
+      "nameEn": "Americano",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 217,
+      "name": "ทะลผัดผงกระหรี่",
+      "nameEn": "Stir-Fried Seafood in yellow curry powder",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 231,
+      "name": "ข้าวผัดทะเล",
+      "nameEn": "Fried rice with Seafood ",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 212,
+      "name": "กุ้งผัดเม็ดมะม่วง",
+      "nameEn": "Stir fried shrimp with cashew nuts",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 328,
+      "name": "น้ำมะพร้าว",
+      "nameEn": "Coconut Fresh Juice",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    },
+    {
+      "id": 263,
+      "name": "ทรัฟเฟิลซอส ",
+      "nameEn": "Truffle sauce",
+      "image": "/image/12",
+      "isShow": "1",
+      "categoryId": {
+        "id": 11,
+        "name": "อาหารเจ",
+        "nameEn": "Vegetarian",
+        "image": ""
+      },
+      "subKitchenId": {
+        "id": 6,
+        "name": "ทอด",
+        "nameEn": "fry",
+        "ipPrinter": ""
+      },
+      "priceList": [],
+      "options": []
+    }
+  ]
+}

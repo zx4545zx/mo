@@ -43,10 +43,10 @@ function RowSelections() {
         Status: string,
         Zone: string
     }
-    //Connect API (Find data)
+    // Connect API (Find data)
     // useEffect(() => {
     //     const fetchData = async () => {
-    //         axios.get('https://jsonplaceholder.typicode.com/users')
+    //         axios.get('http://restaurantapi.bubblethailand.com/foods')
     //             .then(res => setRecords(res.data))
     //             .catch(err => console.log(err))
     //     }
