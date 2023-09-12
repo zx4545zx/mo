@@ -11,7 +11,8 @@ import TEST2 from "./component/content/homepage/TEST2";
 import TEST3 from "./component/content/homepage/TEST3";
 import TestNewFood from "./component/content/homepage/TestNewFood";
 import TNewFood from "./component/content/homepage/TNewFood";
-
+import TEST4 from "./component/content/homepage/TEST4";
+// import T from "./component/content/homepage/T";
 // import Dropdown from "./component/content/homepage/Dropdown";
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             {/* <NewFood /> */}
             {/* <TestNewFood /> */}
             <TNewFood />
+            {/* <T /> */}
 
             {/* <Dropdown /> */}
           </div>
@@ -32,12 +34,13 @@ function App() {
             <div className="bg-[#F9F7F7] rounded-xl text-xl p-5">
               สรุปรายการอาหารทั้งหมด
               <TEST2 />
-              <TEST3 />
+              {/* <TEST4 /> */}
+              {/* <TEST3 /> */}
             </div>
             {/* <TotalFood />
 
             <TodoFood /> */}
-            <div className="bg-[#F9F7F7] rounded-xl text-xl p-5 ">
+            {/* <div className="bg-[#F9F7F7] rounded-xl text-xl p-5 ">
               รายการที่กำลังทำ
               <div className="flex flex-row items-center justify-end w-full gap-8 px-5 py-8">
                 <button className="rounded-xl bg-[#AEAEAE] w-28 h-10 text-[#FFFFFF] text-sm">
@@ -47,7 +50,7 @@ function App() {
                   เริ่มทำ
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
