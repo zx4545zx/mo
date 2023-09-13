@@ -1,61 +1,68 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+
+interface MockData {
+  id: number;
+  quantity: number;
+  name_menu: string;
+  detail: String;
+  type: String;
+  table: String;
+  status: String;
+}
 
 const TEST4: React.FC = () => {
+  const [items, setItems] = useState<MockData[]>([
+    {
+      id: 1,
+      quantity: 3,
+      name_menu: "ข้าวผัดกุ้ง",
+      detail: "ไม่พริก",
+      type: "พิเศษ",
+      table: "A1-1",
+      status: "waiting",
+    },
+  ]);
+  const [selectedItems, setSelectedItems] = useState<number[]>([]);
 
-
-  const initialData  = [
-    { id: 1, quantity: 3, name_menu: 'ข้าวผัดกุ้ง', detail: 'ไม่พริก', type: 'พิเศษ', table: 'A1-1', status: 'waiting' },
-    { id: 2, quantity: 3, name_menu: 'ข้าวผัดหมู', detail: 'ไม่พริก', type: 'พิเศษ', table: 'A1-1', status: 'waiting' },
-    { id: 3, quantity: 3, name_menu: 'ข้าวผัดไก่', detail: 'ไม่พริก', type: 'พิเศษ', table: 'A1-1', status: 'waiting' },
-  ];
-
-  const [data, setData] = useState(initialData);
-
-
-  const saveToNewArray = () => {
-   
-    const newData = [...data];
-
-    
-    newData.push({ id: 3, quantity: 2, name_menu: 'ข้าวผัดไก่', detail: 'ไม่พริก', type: 'พิเศษ', table: 'A1-2', status: 'waiting' },{ id: 3, quantity: 2, name_menu: 'ข้าวผัดไก่6', detail: 'ไม่พริก', type: 'พิเศษ', table: 'A1-2', status: 'waiting' });
-
-    
-    setData(newData);
+  const toggleItemSelection = (itemId: number) => {
+    setSelectedItems((prevSelectedItems) => {
+      if (prevSelectedItems.includes(itemId)) {
+        // Item is already selected, so deselect it
+        return prevSelectedItems.filter((id) => id !== itemId);
+      } else {
+        // Item is not selected, so select it
+        return [...prevSelectedItems, itemId];
+      }
+    });
   };
-  console.log("data",data);
+
+  const deleteSelectedItems = () => {
+    // Remove selected items from the items list
+    setItems((prevItems) =>
+      prevItems.filter((item) => !selectedItems.includes(item.id))
+    );
+    // Clear the selectedItems array
+    setSelectedItems([]);
+  };
 
   return (
     <div>
-      <table className="table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Quantity</th>
-            <th>Name Menu</th>
-            <th>Detail</th>
-            <th>Type</th>
-            <th>Table</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((item) => (
-            <tr key={item.id}>
-              <td>{item.id}</td>
-              <td>{item.quantity}</td>
-              <td>{item.name_menu}</td>
-              <td>{item.detail}</td>
-              <td>{item.type}</td>
-              <td>{item.table}</td>
-              <td>{item.status}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-
-      <button onClick={saveToNewArray}>
-        Save to New Array
-      </button>
+      <h1>Multi-Select Delete</h1>
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>
+            <label>
+              <input
+                type="checkbox"
+                checked={selectedItems.includes(item.id)}
+                onChange={() => toggleItemSelection(item.id)}
+              />
+              {item.name_menu}
+            </label>
+          </li>
+        ))}
+      </ul>
+      <button onClick={deleteSelectedItems}>Delete Selected Items</button>
     </div>
   );
 };

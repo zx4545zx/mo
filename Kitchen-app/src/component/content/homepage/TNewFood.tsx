@@ -178,7 +178,6 @@ const DropdownSelect: React.FC<{ data: Zone[] }> = ({ data }) => {
                     <div key={index}>
                       <div className="grid grid-cols-2">
                         <div className="flex gap-3">
-                          {" "}
                           <BiSolidCheckbox className="text-[#0AEA49]" />
                           {item.menusName}
                         </div>
@@ -186,11 +185,9 @@ const DropdownSelect: React.FC<{ data: Zone[] }> = ({ data }) => {
                         <div className="ml-24">x{item.quantity}</div>
                         <div className="grid grid-cols-2 gap-5 px-8">
                           <div className="text-sm text-[#5F5F5F]">
-                            {" "}
                             {item.details}
                           </div>
                           <div className="text-sm text-[#5F5F5F]">
-                            {" "}
                             {item.type}
                           </div>
                         </div>
@@ -211,14 +208,10 @@ const TNewFood: React.FC = () => {
     <>
       <div className="h-full rounded-xl bg-[#F9F7F7]">
         <div className="px-3 py-5 text-xl">
-          {/* รายการอาหารใหม่ -บิล2 */}
           <div className="p-4 mx-auto ">
             <DropdownSelect data={data} />
           </div>
         </div>
-        {/* <div className="container flex p-4 mx-auto ">
-            <DropdownSelect data={data} />
-          </div> */}
       </div>
     </>
   );
