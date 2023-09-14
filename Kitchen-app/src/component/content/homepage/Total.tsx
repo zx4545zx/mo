@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-import CardOrder from "../../card/CardOrder";
+import CardTotal from "../../card/CardTotal";
 import { Order } from "../../models/order";
 import { getOrder } from "../../API/order";
-function TEST4() {
+function Total() {
   const [orders, setOrders] = useState<Order[] | undefined>([]);
 
   useEffect(() => {
@@ -23,13 +23,13 @@ function TEST4() {
 
   return (
     <>
-      <div className="bg-[#F9F7F7] rounded-xl">
-        <p className="p-6 text-xl">รายการอาหารใหม่ -บิล</p>
-        <div className="flex flex-wrap justify-center w-full gap-4 ">
+      <div className="bg-[#F9F7F7] rounded-xl h-full">
+        <p className="p-6 text-xl">สรุปรายการอาหารทั้งหมด</p>
+        <div className="justify-start w-full gap-4 p-6 ">
           {orders?.map((data) => (
             <>
               <div>
-                <CardOrder key={data.id} data={data} />
+                <CardTotal key={data.id} data={data} />
               </div>
             </>
           ))}
@@ -39,4 +39,4 @@ function TEST4() {
   );
 }
 
-export default TEST4;
+export default Total;

@@ -11,36 +11,6 @@ interface MockData {
 }
 
 function TEST2() {
-  // const data = [
-  //   {
-  //     id: 1,
-  //     quantity: 3,
-  //     name_menu: "ข้าวผัดกุ้ง",
-  //     detail: "ไม่พริก",
-  //     type: "พิเศษ",
-  //     table: "A1-1",
-  //     status: "waiting",
-  //   },
-
-  //   {
-  //     id: 2,
-  //     quantity: 3,
-  //     name_menu: "ข้าวผัดหมู",
-  //     detail: "ไม่พริก",
-  //     type: "พิเศษ",
-  //     table: "A1-1",
-  //     status: "waiting",
-  //   },
-  //   {
-  //     id: 3,
-  //     quantity: 3,
-  //     name_menu: "ข้าวผัดไก่",
-  //     detail: "ไม่พริก",
-  //     type: "พิเศษ",
-  //     table: "A1-1",
-  //     status: "waiting",
-  //   },
-  // ];
   const [data, setData] = useState([
     {
       id: 1,
