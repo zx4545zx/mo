@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import { Order, ZoneId, PriceList } from "../../models/order";
+import { getOrder } from "../../API/order";
 interface MockData {
   id: number;
   quantity: number;
@@ -47,8 +48,7 @@ function TEST2() {
       const newData = selectedItems.filter((d) => d.id !== item.id);
       setSelectedItems(newData);
     } else {
-      const newData = [...selectedItems, item];
-      setSelectedItems(newData);
+      setSelectedItems([...selectedItems, item]);
     }
   };
 

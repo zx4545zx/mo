@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CardOrder from "../../card/CardOrder";
 import { Order } from "../../models/order";
 import { getOrder } from "../../API/order";
-function TEST4() {
+function TodoTest() {
   const [orders, setOrders] = useState<Order[] | undefined>([]);
 
   useEffect(() => {
@@ -23,33 +23,7 @@ function TEST4() {
 
   return (
     <>
-      <div className="bg-[#F9F7F7] rounded-xl h-screen">
-        <p className="flex gap-20 p-6 text-xl">
-          <p>รายการอาหารใหม่ -บิล</p>
-          <select
-            className="w-48 p-1 rounded-xl"
-            value={selectedZone}
-            onChange={(e) => setSelectedZone(e.target.value)}
-          >
-            <option value="">ทั้งหมด</option>
-            {orders && orders.length > 0 ? (
-              Array.from(
-                new Set(
-                  orders
-                    .map((data) => data.table.map((v) => v.zoneId.name))
-                    .flat()
-                )
-              ).map((zoneName) => (
-                <option key={zoneName} value={zoneName}>
-                  {zoneName}
-                </option>
-              ))
-            ) : (
-              <option disabled>ไม่พบข้อมูล</option>
-            )}
-          </select>
-        </p>
-
+      <div className="bg-[#F9F7F7] rounded-xl ">
         <div className="flex flex-wrap justify-center w-full gap-4 ">
           {orders ? (
             orders
@@ -71,4 +45,4 @@ function TEST4() {
   );
 }
 
-export default TEST4;
+export default TodoTest;

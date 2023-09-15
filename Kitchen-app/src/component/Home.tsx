@@ -1,16 +1,17 @@
-import React from 'react'
-import Header from './header'
+import React from "react";
+import Header from "./header";
 import { VscHome } from "react-icons/Vsc";
 import { LuClock3 } from "react-icons/Lu";
 import { CgBox } from "react-icons/Cg";
-import TabSideBar from './TabSideBar'
-import TabMenuStock from './content/Stock/TabMenuStock';
-import TabStatus from './content/Bill/TabStatus';
+import TabSideBar from "./TabSideBar";
+import TabMenuStock from "./content/Stock/TabMenuStock";
+import TabStatus from "./content/Bill/TabStatus";
 import { GoDotFill } from "react-icons/Go";
-import Todo from './content/Bill/Todo';
-import Complete from './content/Bill/Complete';
-import Problem from './content/Bill/Problem';
+import Todo from "./content/Bill/Todo";
+import Complete from "./content/Bill/Complete";
+import Problem from "./content/Bill/Problem";
 import { BiSearchAlt2 } from "react-icons/Bi";
+
 function Home() {
   const tabContenStatus = [
     {
@@ -55,25 +56,37 @@ function Home() {
   ];
   const tabContenSideBar = [
     {
-      label:
+      label: (
         <p className="flex justify-center gap-2 ">
           <VscHome className="text-4xl" />
-        </p>,
+        </p>
+      ),
       content: <div>l</div>,
     },
     {
-      label:
+      label: (
         <p className="flex justify-center gap-2">
           <LuClock3 className="text-4xl" />
-        </p>,
-      content: <div>  <TabStatus tabs={tabContenStatus} /></div>,
+        </p>
+      ),
+      content: (
+        <div>
+          {" "}
+          <TabStatus tabs={tabContenStatus} />
+        </div>
+      ),
     },
     {
-      label:
+      label: (
         <p className="flex justify-center gap-2">
           <CgBox className="text-4xl" />
-        </p>,
-      content: <div><TabMenuStock /></div>,
+        </p>
+      ),
+      content: (
+        <div>
+          <TabMenuStock />
+        </div>
+      ),
     },
   ];
   return (
@@ -86,10 +99,8 @@ function Home() {
           <TabSideBar tabs={tabContenSideBar} />
         </div>
       </div>
-
-
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import { Order, ZoneId, PriceList } from "../models/order";
-import { formatTime } from "../utils/formatTime";
-import OrderDetail from "../API/OrderDetail";
-import { LuClock3 } from "react-icons/Lu";
-
+import { Order, ZoneId, PriceList, OrderDetail } from "../models/order";
 type OrderProps = {
   data: Order;
 };
@@ -11,22 +7,49 @@ type OrderProps = {
 function CardTotal(props: OrderProps) {
   const { data } = props;
 
+  const [selectedItems, setSelectedItems] = useState<OrderDetail[]>([]);
+  //--------
+  const handleCheckboxChange = (item: OrderDetail) => {
+    if (selectedItems.some((selectedItem) => selectedItem.id === item.id)) {
+      console.log("uncheck");
+
+      const unCheck = selectedItems.filter(
+        (selectedItem) => selectedItem.id !== item.id
+      );
+      setSelectedItems(unCheck);
+    } else {
+      const d = [...selectedItems, item];
+
+      console.log(d);
+
+      setSelectedItems(d);
+    }
+    console.log("selectItem", selectedItems);
+  };
+  //----------------------
   return (
     <>
-      <table className="w-full bg-white rounded-xl">
-        <tbody>
-          <tr>
+      <div>
+        <table className="w-full bg-white rounded-xl">
+          <tbody>
             {data.orderDetail != null &&
               data.orderDetail.map((v) => (
-                <div className="flex justify-between gap-2 p-3">
+                <tr key={v.id}>
                   <td>
-                    <input type="checkbox" />
+                    <input
+                      type="checkbox"
+                      checked={selectedItems.some((d) => d.id === v.id)}
+                      onChange={() => handleCheckboxChange(v)}
+                    />
                   </td>
                   <td className="text-[#ED7E46]">x{v.qty}</td>
                   <td>{v.priceList != null && v.priceList.food.name}</td>
                   <td>
                     {v.optionDetail.map((i) => (
-                      <div className="text-[#5F5F5F] ">
+                      <div
+                        className="text-[#5F5F5F] "
+                        key={i.optionDetail.name}
+                      >
                         {i.optionDetail.name}
                       </div>
                     ))}
@@ -34,22 +57,22 @@ function CardTotal(props: OrderProps) {
                   <td className="text-[#5F5F5F] ">
                     {v.priceList != null && v.priceList.name}
                   </td>
-
                   <td>
                     {data.table != null &&
-                      data.table.map((v) => (
-                        <>
-                          <div className="text-xs text-[#0198DD] ">
-                            {v.name}- {v.seat}
-                          </div>
-                        </>
+                      data.table.map((tableItem) => (
+                        <div
+                          className="text-xs text-[#0198DD] "
+                          key={tableItem.name}
+                        >
+                          {tableItem.name} - {tableItem.seat}
+                        </div>
                       ))}
                   </td>
-                </div>
+                </tr>
               ))}
-          </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </div>
     </>
   );
 }
