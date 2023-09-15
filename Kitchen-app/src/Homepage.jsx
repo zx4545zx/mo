@@ -6,8 +6,11 @@ import Header from "./component/header";
 import TEST2 from "./component/content/homepage/TEST2";
 import TNewFood from "./component/content/homepage/TNewFood";
 import TEST4 from "./component/content/homepage/TEST4";
+
+import TestSelect from "./component/content/homepage/TestSelect";
 // import ApiTest from "./component/content/homepage/ApiTest";
 import Total from "./component/content/homepage/Total";
+
 function App() {
   return (
     <div className="w-full h-screen bg-[#FFFFFF] font-Kanit">
@@ -20,7 +23,7 @@ function App() {
           <TEST4 />
 
           <div className="rounded-xl">
-            {/* <TEST2 /> */}
+            <TEST2 />
             <Total />
           </div>
         </div>
